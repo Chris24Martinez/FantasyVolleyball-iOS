@@ -10,9 +10,8 @@ import SwiftUI
 struct LoginPage: View {
     @State private var username: String = ""
     @State private var password: String = ""
-    @State private var wrongUsername: CGFloat = 0
-    @State private var wrongPassword: CGFloat = 0
-    
+    @State private var wrongUsername: Bool = false
+    @State private var wrongPassword: Bool = false
     @State private var screens: [String] = []
     
     var body: some View {
@@ -37,16 +36,16 @@ struct LoginPage: View {
                         .frame(width: 300, height: 50)
                         .background(Color.black.opacity(0.05))
                         .cornerRadius(10)
-                        .border(.red, width: CGFloat(wrongUsername))
+                        .border(.red, width: wrongUsername ? 2.0 : .zero)
                     SecureField("Password", text: $password)
                         .padding()
                         .frame(width: 300, height: 50)
                         .background(Color.black.opacity(0.05))
                         .cornerRadius(10)
-                        .border(.red, width: CGFloat(wrongPassword))
+                        .border(.red, width: wrongPassword ? 2.0 : .zero)
                     Button("Login") {
-                        wrongUsername = 0
-                        wrongPassword = 0
+                        wrongUsername = false
+                        wrongPassword = false
                         authenticateUser(username: username, password: password)
                     }
                         .foregroundColor(.white)
@@ -75,17 +74,17 @@ struct LoginPage: View {
     
     func authenticateUser(username: String, password: String) {
         if username.lowercased() == "chris24" {
-            wrongUsername = 0
+            wrongUsername = false
             if password.lowercased() == "test123" {
-                wrongPassword = 0
+                wrongPassword = false
                 screens.append("Login")
             }
             else {
-                wrongPassword = 2
+                wrongPassword = true
             }
         }
         else {
-            wrongUsername = 2
+            wrongUsername = true
         }
     }
 }

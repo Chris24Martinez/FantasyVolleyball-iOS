@@ -163,42 +163,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A61D51E329822D5C00A27E99 /* UI-OLD */ = {
-			isa = PBXGroup;
-			children = (
-				A61D51E629822DAB00A27E99 /* LoginPage.swift */,
-				A673B3BB290F81CB00CD2511 /* LandingPage.swift */,
-				A61D51F029822F9C00A27E99 /* PlayerRow.swift */,
-				A61D51F229822FAB00A27E99 /* PlayerDetails.swift */,
-				A61D51E829822DE400A27E99 /* ForgotPasswordPage.swift */,
-				A61D51F82982354300A27E99 /* ErrorPage.swift */,
-			);
-			path = "UI-OLD";
-			sourceTree = "<group>";
-		};
-		A61D51E429822D6900A27E99 /* Logic-OLD */ = {
+		A61D51E429822D6900A27E99 /* OLD */ = {
 			isa = PBXGroup;
 			children = (
 				A61D51EC29822E9600A27E99 /* InteractionHandler.swift */,
 				A61D51EE29822EA100A27E99 /* DataHandler.swift */,
-			);
-			path = "Logic-OLD";
-			sourceTree = "<group>";
-		};
-		A61D51E529822D7100A27E99 /* Objects-OLD */ = {
-			isa = PBXGroup;
-			children = (
 				A61D51EA29822E5E00A27E99 /* Player.swift */,
-			);
-			path = "Objects-OLD";
-			sourceTree = "<group>";
-		};
-		A61D51FA298237F000A27E99 /* TestData-OLD */ = {
-			isa = PBXGroup;
-			children = (
 				A61D51FB2982380C00A27E99 /* SamplePlayers.json */,
 			);
-			path = "TestData-OLD";
+			path = OLD;
 			sourceTree = "<group>";
 		};
 		A673B383290F365D00CD2511 = {
@@ -227,10 +200,7 @@
 				A67C5DD32A0AFADB00ECCCFD /* Data */,
 				A67C5DD42A0AFAE300ECCCFD /* Networking */,
 				A67C5DDA2A0AFB2D00ECCCFD /* Scenes */,
-				A61D51E329822D5C00A27E99 /* UI-OLD */,
-				A61D51E429822D6900A27E99 /* Logic-OLD */,
-				A61D51E529822D7100A27E99 /* Objects-OLD */,
-				A61D51FA298237F000A27E99 /* TestData-OLD */,
+				A61D51E429822D6900A27E99 /* OLD */,
 				A67C5DE52A0AFC0F00ECCCFD /* AppCoordinator.swift */,
 				A673B38F290F365D00CD2511 /* FantasyVolleyballApp.swift */,
 				A673B393290F365D00CD2511 /* Assets.xcassets */,
@@ -430,6 +400,9 @@
 		A67C5DE32A0AFBCB00ECCCFD /* MyTeam */ = {
 			isa = PBXGroup;
 			children = (
+				A673B3BB290F81CB00CD2511 /* LandingPage.swift */,
+				A61D51F029822F9C00A27E99 /* PlayerRow.swift */,
+				A61D51F229822FAB00A27E99 /* PlayerDetails.swift */,
 			);
 			path = MyTeam;
 			sourceTree = "<group>";
@@ -437,6 +410,9 @@
 		A67C5DE42A0AFBD100ECCCFD /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				A61D51E629822DAB00A27E99 /* LoginPage.swift */,
+				A61D51E829822DE400A27E99 /* ForgotPasswordPage.swift */,
+				A61D51F82982354300A27E99 /* ErrorPage.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
