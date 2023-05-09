@@ -1,0 +1,12 @@
+{
+    "swap": {
+        "drop": {
+            "teamId": 123,
+            "playerId": 1001
+        },
+        "draft": {
+            "teamId": 123,
+            "playerId": 1004
+        }
+    }
+}

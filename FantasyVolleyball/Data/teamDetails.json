@@ -1,0 +1,38 @@
+{
+    "teamDetails": {
+        "id": 123,
+        "name": "Super Spike Sisters",
+        "players": [
+            {
+                "id": 1001,
+                "name": "Chris",
+                "position": "Libero",
+                "school": "UGA",
+                "team": "Super Spike Sisters",
+                "recent": {
+                    
+                }
+            },
+            {
+                "id": 1002,
+                "name": "Watson",
+                "position": "Setter",
+                "school": "UGA",
+                "team": "Super Spike Sisters",
+                "recent": {
+                    
+                }
+            },
+            {
+                "id": 1003,
+                "name": "Rando",
+                "position": "Bench",
+                "school": "GA Tech",
+                "team": "Super Spike Sisters",
+                "recent": {
+                    
+                }
+            }
+        ]
+    }
+}

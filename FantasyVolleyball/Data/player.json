@@ -1,0 +1,11 @@
+{
+    "player": {
+        "id": 1001,
+        "name": "Chris",
+        "position": "Libero",
+        "school": "UGA",
+        "recent": {
+            
+        }
+    }
+}

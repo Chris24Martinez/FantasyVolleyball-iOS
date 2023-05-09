@@ -1,0 +1,46 @@
+{
+    "undraftedDetails": {
+        [
+            {
+                "id": 1004,
+                "name": "James",
+                "position": "Outside Hitter",
+                "school": "UGA",
+                "team": "undrafted",
+                "recent": {
+                    
+                }
+            },
+            {
+                "id": 1005,
+                "name": "Brendan",
+                "position": "Middle Blocker",
+                "school": "UGA",
+                "team": "undrafted",
+                "recent": {
+                    
+                }
+            },
+            {
+                "id": 1006,
+                "name": "Aileen",
+                "position": "Libero",
+                "school": "UGA",
+                "team": "undrafted",
+                "recent": {
+                    
+                }
+            },
+            {
+                "id": 1007,
+                "name": "Tyler",
+                "position": "Middle Blocker",
+                "school": "UGA",
+                "team": "undrafted",
+                "recent": {
+                    
+                }
+            }
+        ]
+    }
+}

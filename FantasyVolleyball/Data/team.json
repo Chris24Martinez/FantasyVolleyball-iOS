@@ -1,0 +1,12 @@
+{
+    "team": {
+        "id": 123,
+        "name": "Super Spike Sisters",
+        "players": [
+            1001,
+            1002,
+            1003
+        ]
+    }
+}
+

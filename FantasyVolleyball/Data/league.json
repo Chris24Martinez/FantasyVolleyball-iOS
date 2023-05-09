@@ -1,0 +1,11 @@
+{
+    "league": {
+        "id": 0,
+        "name": "FantasyVolleyball",
+        "teams": [
+            123,
+            456,
+            101
+        ]
+    }
+}
