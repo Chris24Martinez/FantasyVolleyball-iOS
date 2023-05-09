@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61D51E729822DAB00A27E99 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D51E629822DAB00A27E99 /* LoginPage.swift */; };
+		A61D51E929822DE400A27E99 /* ForgotPasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D51E829822DE400A27E99 /* ForgotPasswordPage.swift */; };
+		A61D51EB29822E5E00A27E99 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D51EA29822E5E00A27E99 /* Player.swift */; };
+		A61D51ED29822E9600A27E99 /* InteractionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D51EC29822E9600A27E99 /* InteractionHandler.swift */; };
+		A61D51EF29822EA100A27E99 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D51EE29822EA100A27E99 /* DataHandler.swift */; };
+		A61D51F129822F9C00A27E99 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D51F029822F9C00A27E99 /* PlayerRow.swift */; };
+		A61D51F329822FAB00A27E99 /* PlayerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D51F229822FAB00A27E99 /* PlayerDetails.swift */; };
+		A61D51F92982354300A27E99 /* ErrorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D51F82982354300A27E99 /* ErrorPage.swift */; };
+		A61D51FC2982380C00A27E99 /* SamplePlayers.json in Resources */ = {isa = PBXBuildFile; fileRef = A61D51FB2982380C00A27E99 /* SamplePlayers.json */; };
+		A673B390290F365D00CD2511 /* FantasyVolleyballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A673B38F290F365D00CD2511 /* FantasyVolleyballApp.swift */; };
+		A673B394290F365D00CD2511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A673B393290F365D00CD2511 /* Assets.xcassets */; };
+		A673B397290F365D00CD2511 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A673B396290F365D00CD2511 /* Preview Assets.xcassets */; };
+		A673B3A1290F365D00CD2511 /* FantasyVolleyballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A673B3A0290F365D00CD2511 /* FantasyVolleyballTests.swift */; };
+		A673B3AB290F365D00CD2511 /* FantasyVolleyballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A673B3AA290F365D00CD2511 /* FantasyVolleyballUITests.swift */; };
+		A673B3AD290F365D00CD2511 /* FantasyVolleyballUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A673B3AC290F365D00CD2511 /* FantasyVolleyballUITestsLaunchTests.swift */; };
+		A673B3BC290F81CB00CD2511 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A673B3BB290F81CB00CD2511 /* LandingPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A673B39D290F365D00CD2511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A673B384290F365D00CD2511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A673B38B290F365D00CD2511;
+			remoteInfo = FantasyVolleyball;
+		};
+		A673B3A7290F365D00CD2511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A673B384290F365D00CD2511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A673B38B290F365D00CD2511;
+			remoteInfo = FantasyVolleyball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A61D51E629822DAB00A27E99 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		A61D51E829822DE400A27E99 /* ForgotPasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordPage.swift; sourceTree = "<group>"; };
+		A61D51EA29822E5E00A27E99 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A61D51EC29822E9600A27E99 /* InteractionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionHandler.swift; sourceTree = "<group>"; };
+		A61D51EE29822EA100A27E99 /* DataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		A61D51F029822F9C00A27E99 /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		A61D51F229822FAB00A27E99 /* PlayerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetails.swift; sourceTree = "<group>"; };
+		A61D51F82982354300A27E99 /* ErrorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPage.swift; sourceTree = "<group>"; };
+		A61D51FB2982380C00A27E99 /* SamplePlayers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SamplePlayers.json; sourceTree = "<group>"; };
+		A673B38C290F365D00CD2511 /* FantasyVolleyball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasyVolleyball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A673B38F290F365D00CD2511 /* FantasyVolleyballApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasyVolleyballApp.swift; sourceTree = "<group>"; };
+		A673B393290F365D00CD2511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A673B396290F365D00CD2511 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A673B39C290F365D00CD2511 /* FantasyVolleyballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyVolleyballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A673B3A0290F365D00CD2511 /* FantasyVolleyballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasyVolleyballTests.swift; sourceTree = "<group>"; };
+		A673B3A6290F365D00CD2511 /* FantasyVolleyballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyVolleyballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A673B3AA290F365D00CD2511 /* FantasyVolleyballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasyVolleyballUITests.swift; sourceTree = "<group>"; };
+		A673B3AC290F365D00CD2511 /* FantasyVolleyballUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasyVolleyballUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A673B3BB290F81CB00CD2511 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A673B389290F365D00CD2511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A673B399290F365D00CD2511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A673B3A3290F365D00CD2511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61D51E329822D5C00A27E99 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A61D51E629822DAB00A27E99 /* LoginPage.swift */,
+				A673B3BB290F81CB00CD2511 /* LandingPage.swift */,
+				A61D51F029822F9C00A27E99 /* PlayerRow.swift */,
+				A61D51F229822FAB00A27E99 /* PlayerDetails.swift */,
+				A61D51E829822DE400A27E99 /* ForgotPasswordPage.swift */,
+				A61D51F82982354300A27E99 /* ErrorPage.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A61D51E429822D6900A27E99 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				A61D51EC29822E9600A27E99 /* InteractionHandler.swift */,
+				A61D51EE29822EA100A27E99 /* DataHandler.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		A61D51E529822D7100A27E99 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A61D51EA29822E5E00A27E99 /* Player.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		A61D51FA298237F000A27E99 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				A61D51FB2982380C00A27E99 /* SamplePlayers.json */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		A673B383290F365D00CD2511 = {
+			isa = PBXGroup;
+			children = (
+				A673B38E290F365D00CD2511 /* FantasyVolleyball */,
+				A673B39F290F365D00CD2511 /* FantasyVolleyballTests */,
+				A673B3A9290F365D00CD2511 /* FantasyVolleyballUITests */,
+				A673B38D290F365D00CD2511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A673B38D290F365D00CD2511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A673B38C290F365D00CD2511 /* FantasyVolleyball.app */,
+				A673B39C290F365D00CD2511 /* FantasyVolleyballTests.xctest */,
+				A673B3A6290F365D00CD2511 /* FantasyVolleyballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A673B38E290F365D00CD2511 /* FantasyVolleyball */ = {
+			isa = PBXGroup;
+			children = (
+				A61D51E329822D5C00A27E99 /* UI */,
+				A61D51E429822D6900A27E99 /* Logic */,
+				A61D51E529822D7100A27E99 /* Objects */,
+				A61D51FA298237F000A27E99 /* TestData */,
+				A673B38F290F365D00CD2511 /* FantasyVolleyballApp.swift */,
+				A673B393290F365D00CD2511 /* Assets.xcassets */,
+				A673B395290F365D00CD2511 /* Preview Content */,
+			);
+			path = FantasyVolleyball;
+			sourceTree = "<group>";
+		};
+		A673B395290F365D00CD2511 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A673B396290F365D00CD2511 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A673B39F290F365D00CD2511 /* FantasyVolleyballTests */ = {
+			isa = PBXGroup;
+			children = (
+				A673B3A0290F365D00CD2511 /* FantasyVolleyballTests.swift */,
+			);
+			path = FantasyVolleyballTests;
+			sourceTree = "<group>";
+		};
+		A673B3A9290F365D00CD2511 /* FantasyVolleyballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A673B3AA290F365D00CD2511 /* FantasyVolleyballUITests.swift */,
+				A673B3AC290F365D00CD2511 /* FantasyVolleyballUITestsLaunchTests.swift */,
+			);
+			path = FantasyVolleyballUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A673B38B290F365D00CD2511 /* FantasyVolleyball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A673B3B0290F365D00CD2511 /* Build configuration list for PBXNativeTarget "FantasyVolleyball" */;
+			buildPhases = (
+				A673B388290F365D00CD2511 /* Sources */,
+				A673B389290F365D00CD2511 /* Frameworks */,
+				A673B38A290F365D00CD2511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FantasyVolleyball;
+			productName = FantasyVolleyball;
+			productReference = A673B38C290F365D00CD2511 /* FantasyVolleyball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A673B39B290F365D00CD2511 /* FantasyVolleyballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A673B3B3290F365D00CD2511 /* Build configuration list for PBXNativeTarget "FantasyVolleyballTests" */;
+			buildPhases = (
+				A673B398290F365D00CD2511 /* Sources */,
+				A673B399290F365D00CD2511 /* Frameworks */,
+				A673B39A290F365D00CD2511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A673B39E290F365D00CD2511 /* PBXTargetDependency */,
+			);
+			name = FantasyVolleyballTests;
+			productName = FantasyVolleyballTests;
+			productReference = A673B39C290F365D00CD2511 /* FantasyVolleyballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A673B3A5290F365D00CD2511 /* FantasyVolleyballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A673B3B6290F365D00CD2511 /* Build configuration list for PBXNativeTarget "FantasyVolleyballUITests" */;
+			buildPhases = (
+				A673B3A2290F365D00CD2511 /* Sources */,
+				A673B3A3290F365D00CD2511 /* Frameworks */,
+				A673B3A4290F365D00CD2511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A673B3A8290F365D00CD2511 /* PBXTargetDependency */,
+			);
+			name = FantasyVolleyballUITests;
+			productName = FantasyVolleyballUITests;
+			productReference = A673B3A6290F365D00CD2511 /* FantasyVolleyballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A673B384290F365D00CD2511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A673B38B290F365D00CD2511 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					A673B39B290F365D00CD2511 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A673B38B290F365D00CD2511;
+					};
+					A673B3A5290F365D00CD2511 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A673B38B290F365D00CD2511;
+					};
+				};
+			};
+			buildConfigurationList = A673B387290F365D00CD2511 /* Build configuration list for PBXProject "FantasyVolleyball" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A673B383290F365D00CD2511;
+			productRefGroup = A673B38D290F365D00CD2511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A673B38B290F365D00CD2511 /* FantasyVolleyball */,
+				A673B39B290F365D00CD2511 /* FantasyVolleyballTests */,
+				A673B3A5290F365D00CD2511 /* FantasyVolleyballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A673B38A290F365D00CD2511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A673B397290F365D00CD2511 /* Preview Assets.xcassets in Resources */,
+				A61D51FC2982380C00A27E99 /* SamplePlayers.json in Resources */,
+				A673B394290F365D00CD2511 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A673B39A290F365D00CD2511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A673B3A4290F365D00CD2511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A673B388290F365D00CD2511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A673B3BC290F81CB00CD2511 /* LandingPage.swift in Sources */,
+				A61D51F129822F9C00A27E99 /* PlayerRow.swift in Sources */,
+				A61D51E929822DE400A27E99 /* ForgotPasswordPage.swift in Sources */,
+				A673B390290F365D00CD2511 /* FantasyVolleyballApp.swift in Sources */,
+				A61D51EF29822EA100A27E99 /* DataHandler.swift in Sources */,
+				A61D51F92982354300A27E99 /* ErrorPage.swift in Sources */,
+				A61D51ED29822E9600A27E99 /* InteractionHandler.swift in Sources */,
+				A61D51F329822FAB00A27E99 /* PlayerDetails.swift in Sources */,
+				A61D51EB29822E5E00A27E99 /* Player.swift in Sources */,
+				A61D51E729822DAB00A27E99 /* LoginPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A673B398290F365D00CD2511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A673B3A1290F365D00CD2511 /* FantasyVolleyballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A673B3A2290F365D00CD2511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A673B3AB290F365D00CD2511 /* FantasyVolleyballUITests.swift in Sources */,
+				A673B3AD290F365D00CD2511 /* FantasyVolleyballUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A673B39E290F365D00CD2511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A673B38B290F365D00CD2511 /* FantasyVolleyball */;
+			targetProxy = A673B39D290F365D00CD2511 /* PBXContainerItemProxy */;
+		};
+		A673B3A8290F365D00CD2511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A673B38B290F365D00CD2511 /* FantasyVolleyball */;
+			targetProxy = A673B3A7290F365D00CD2511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A673B3AE290F365D00CD2511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A673B3AF290F365D00CD2511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A673B3B1290F365D00CD2511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FantasyVolleyball/Preview Content\"";
+				DEVELOPMENT_TEAM = 34MYA9CR7U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MartinezChris.FantasyVolleyball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A673B3B2290F365D00CD2511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FantasyVolleyball/Preview Content\"";
+				DEVELOPMENT_TEAM = 34MYA9CR7U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MartinezChris.FantasyVolleyball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A673B3B4290F365D00CD2511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34MYA9CR7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MartinezChris.FantasyVolleyballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasyVolleyball.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FantasyVolleyball";
+			};
+			name = Debug;
+		};
+		A673B3B5290F365D00CD2511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34MYA9CR7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MartinezChris.FantasyVolleyballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasyVolleyball.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FantasyVolleyball";
+			};
+			name = Release;
+		};
+		A673B3B7290F365D00CD2511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34MYA9CR7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MartinezChris.FantasyVolleyballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FantasyVolleyball;
+			};
+			name = Debug;
+		};
+		A673B3B8290F365D00CD2511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34MYA9CR7U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MartinezChris.FantasyVolleyballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FantasyVolleyball;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A673B387290F365D00CD2511 /* Build configuration list for PBXProject "FantasyVolleyball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A673B3AE290F365D00CD2511 /* Debug */,
+				A673B3AF290F365D00CD2511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A673B3B0290F365D00CD2511 /* Build configuration list for PBXNativeTarget "FantasyVolleyball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A673B3B1290F365D00CD2511 /* Debug */,
+				A673B3B2290F365D00CD2511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A673B3B3290F365D00CD2511 /* Build configuration list for PBXNativeTarget "FantasyVolleyballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A673B3B4290F365D00CD2511 /* Debug */,
+				A673B3B5290F365D00CD2511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A673B3B6290F365D00CD2511 /* Build configuration list for PBXNativeTarget "FantasyVolleyballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A673B3B7290F365D00CD2511 /* Debug */,
+				A673B3B8290F365D00CD2511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A673B384290F365D00CD2511 /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+    "players": [
+        {
+            "id": 0,
+            "name": "Chris",
+            "position": "Libero",
+            "school": "UGA"
+        },
+        {
+            "id": 1,
+            "name": "Watson",
+            "position": "Setter",
+            "school": "UGA"
+        },
+        {
+            "id": 2,
+            "name": "Rando",
+            "position": "Bench",
+            "school": "GA Tech"
+        }
+    ]
+}
